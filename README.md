@@ -27,3 +27,20 @@ into a low power circuit to open that circuit when commanded to do so.
 11.	Set the DIP Switch 7 to OFF position
 12.	Connect power supply to board
 13. Press ESP Reset Button on Board
+
+# GUI Usage
+1. Ensure computer has an internet connection
+2. Open remote-access-gui folder
+3. Run remote-access-gui.exe
+
+# Non-GUI Usage
+## Switching On
+1. Ensure computer has an internet connection
+2. Open Web Browser
+3. Got to https://us01.proxy.teleduino.org/api/1.0/328.php?k=75977832B9FA59765C7C3EB33CCDB29C&r=setDigitalOutput&pin=2&output=1&expire_time=0&save=0
+
+
+## Switching On
+1. Ensure computer has an internet connection
+2. Open Web Browser
+3. Got to https://us01.proxy.teleduino.org/api/1.0/328.php?k=75977832B9FA59765C7C3EB33CCDB29C&r=setDigitalOutput&pin=2&output=0&expire_time=0&save=0
